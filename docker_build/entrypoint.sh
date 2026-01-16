@@ -19,7 +19,7 @@ done < /srv/jupyterhub/usernames
 # copy over nbgrader configs
 if [ ! -f "/home/instructor/.jupyter" ]; then
     mkdir -p /home/instructor/.jupyter
-    cp /srv/jupyterhub/nbgrader_config.py /home/instructor/.jupyter/.
+    cp /etc/jupyter/nbgrader_config.py /home/instructor/.jupyter/.
     chown -R "instructor:instructor" /home/instructor/.jupyter/.
 fi
 

@@ -6,7 +6,7 @@ c = get_config()  #noqa
 c.Authenticator.allow_all = True
 
 # enable iframe subdomains so that the nbgrader formgrader page works
-JupyterHub.enable_subdomains = True
+c.JupyterHub.enable_subdomains = True
 c.ServerApp.tornado_settings = {}
 c.ServerApp.tornado_settings["headers"] = {
     "Content-Security-Policy": "frame-ancestors 'self'"
