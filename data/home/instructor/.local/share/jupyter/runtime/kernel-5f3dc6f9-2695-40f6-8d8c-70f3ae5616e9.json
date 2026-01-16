@@ -1,0 +1,13 @@
+{
+  "shell_port": 52377,
+  "iopub_port": 42683,
+  "stdin_port": 56019,
+  "control_port": 37551,
+  "hb_port": 49227,
+  "ip": "127.0.0.1",
+  "key": "a341a5a7-ee8ebaea391945ff2f2a85b1",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/instructor/course/source/Week_02b.ForLoops/ForLoops.ipynb"
+}

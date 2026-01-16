@@ -1,0 +1,13 @@
+{
+  "shell_port": 56055,
+  "iopub_port": 44833,
+  "stdin_port": 53055,
+  "control_port": 54861,
+  "hb_port": 39189,
+  "ip": "127.0.0.1",
+  "key": "38fc5c14-2a4170ee267b7649c742dd14",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/instructor/course/source/Week_01a.IntroToPython/IntroToPython.ipynb"
+}
