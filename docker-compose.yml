@@ -6,4 +6,4 @@ services:
       - 8000:8000
     volumes:
       - ./data/home:/home
-    entrypoint: ["/srv/jupyterhub/entrypoint.sh"]
+    # entrypoint: ["/srv/jupyterhub/entrypoint.sh"]
