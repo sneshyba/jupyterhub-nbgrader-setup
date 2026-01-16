@@ -5,8 +5,8 @@ export students=$(nbgrader db student list 2> /dev/null | tail -n +2 | awk '{pri
 
 
 while read -r username; do
-    if [ ! -f "/home/$username" ]; then
     # make user home directories if not already made
+    if [ ! -d "/home/$username" ]; then
         mkdir "/home/$username"
         chown "$username:$username" "/home/$username"
         chmod 700 "/home/$username"
