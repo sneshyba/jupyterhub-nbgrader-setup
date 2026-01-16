@@ -1,7 +1,7 @@
 c = get_config()
 
 # read the course name from file to keep things consistent
-c.CourseDirectory.course_id = open("/srv/jupyterhub/course_name").read()
+c.CourseDirectory.course_id = open("/srv/jupyterhub/course_name").read().strip()
 
 # Set the root course directory. Note that this directory is created by entrypoint.sh,
 # so if you change it here it'll have to be changed there too.

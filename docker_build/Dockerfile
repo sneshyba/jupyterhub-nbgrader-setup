@@ -22,3 +22,4 @@ RUN rm -rf users
 
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
+ENTRYPOINT ["/srv/jupyterhub/entrypoint.sh"]
